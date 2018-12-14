@@ -1,0 +1,162 @@
+#body{
+	font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+#sec-slides{
+	background-image: url("../img/slider_bg1.jpg");
+}
+#sec-services {
+	text-align: center;
+	margin-top: 90px;
+	color: #9C98A0;
+	padding-right: 50px;
+}
+#sec-services .titles {
+	font: bold;
+	padding-top: 30px;
+	color: #323232;
+}
+#sec-services a{
+	color: #C0C0C0;
+}
+#sec-services i {
+	color: #FFB600;
+	font-size: 40px;
+	background-color: #D5D5D5;
+	border: 25px solid #D5D5D5; 
+	border-radius: 300%; 
+}
+
+#sec-members .titulo{
+	text-align: center;
+}
+#sec-members .subtitulo{
+	text-align: center;
+}
+#sec-members .subtitulo{
+	font-size: 16px;
+	color: #000;
+	width: 60%;
+	margin: 20px auto 45px;
+}
+#sec-members h4{
+	text-align:center
+}
+#sec-members p{
+	text-align: center;
+}
+header img{
+	height: auto; 
+	width: 200px;
+}
+#sec-slides{
+	text-align: left;
+}
+#sec-slides h4{
+
+}
+#sec-slides h1{
+	font-weight: 400;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+#sec-slides h4{
+	font-size: 16px;
+}
+#sec-slides h1{
+	font-size: 50px;
+	margin-top: 40px;
+	letter-spacing: 20px;
+	margin-bottom: 30px;
+}
+#sec-slides2{
+	text-align: left;
+}
+
+.btn-transparente{
+	background-color: transparent;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 7px 40px;
+	letter-spacing: 2px;
+}
+.btn-transparente:hover{
+	background-color: #fff;
+}
+#sec-counter{
+ margin-top: 60px;
+}
+#sec-counter .bg-img{
+	background-image: url("../img/worker1.jpg");
+	background-position: center;
+	background-repeat: repeat;
+	background-size: cover;
+	
+
+}
+#sec-counter i{
+	color: #FFB600;
+	font-size: 30px;
+}
+#sec-numbers {
+	background-color: #000;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 70px;
+}
+#sec-numbers h3{
+	color: #fff;
+}
+#sec-numbers p{
+	color: #FFB600;
+}
+.padre{
+	position: relative;
+}
+.hijo{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	opacity: 0;
+	transition: all 0.3s ease-in-out;
+	bottom: 100%;
+}
+.padre:hover .hijo{
+	opacity: 1;
+	transition: all 0.3s ease-in-out;
+	bottom: 50%;
+	transform: translateY(50%);
+}
+
+.hijo h3{
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.hijo h4{
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #aaa;
+}
+.bg-overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	background-color: rgba(0,0,0,0.60);
+	transition: all 0.3s ease-in-out;
+	opacity: 0;
+}
+.padre:hover .bg-overlay{
+	opacity: 1;
+	transition: all 0.3s ease-in-out;
+}
+#footer-copy{
+	text-align: center;
+}
+#sec-counter h4{
+	text-align: center;
+}
